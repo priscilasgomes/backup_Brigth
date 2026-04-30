@@ -9,7 +9,7 @@ LOG_FILE="backup.log"
 
 
 
-tar -czf "$DESTINO/$NOME_ARQUIVO" "$ORIGEM"
+tar -czf "$DESTINO/$NOME_ARQUIVO" -C "$ORIGEM"
 
 
 cd $DESTINO
