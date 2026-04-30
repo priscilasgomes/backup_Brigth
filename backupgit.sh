@@ -2,7 +2,7 @@
 
 
 DATA=$(date +%Y-%m-%d_%H-%M-%S)
-ORIGEM="/home/setor"
+ORIGEM="/home/setor/"
 DESTINO="/home/sec4you/Scripts/Projeto/Backup/backup_Brigth"
 NOME_ARQUIVO="backup_$DATA.tar.gz"
 LOG_FILE="backup.log"
